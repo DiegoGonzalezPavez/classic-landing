@@ -1,0 +1,147 @@
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.landing-title{
+  font-size: 32px;
+  color: #fff;
+  margin-top: 40px;
+  max-width: 500px;
+  line-height: 125% !important;
+}
+
+.landing-hero {
+  color: white;
+  position: relative;
+  background-image: url('https://ww2.movistar.cl/ofertas/ofertador/img/2024/bg-fondo-ofertador-abril-desktop.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-color: #019ff6;
+}
+
+.bg-light-blue{
+  background-color: #ebf7ff;
+}
+
+/* Promocional banner */
+.promocional-banner--img{
+  width: 100%;
+}
+
+
+/* Ventajas y beneficios */
+
+
+.beneficios .card{
+  background-color: #fff;
+  max-width: 368px;
+  padding: 24px;
+  min-height: 100%;
+  border-radius: 16px;
+  border: 0;
+}
+
+.beneficios .card-title{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 16px;
+  color: #0b2739;
+}
+
+.beneficios .card-text{
+  margin-top: 18px;
+  font-size: 14px;
+  color: #86888c;
+  line-height: 125%;
+}
+
+/* Formulario */
+.form-title{
+  text-align: left;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  color: black;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form-input::placeholder {
+  color: #ccc;
+}
+
+.form-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-icon {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.form-info p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.form-submit {
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  padding: 16px 5px;
+  transition: opacity .2s;
+  font-size: 16px;
+  background: #019df4;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  min-height: 56px;
+  font-family: "TelefonicaWeb-Bold", Arial, sans-serif;
+}
+
+.form-submit:hover {
+  opacity: 0.8;
+}
